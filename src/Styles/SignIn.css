@@ -1,0 +1,75 @@
+main {
+  @apply flex justify-center bg-no-repeat bg-center bg-cover;
+  background-image: url(../assets/panbg.jpg);
+}
+
+.container {
+  @apply flex items-center h-screen justify-center;
+}
+
+.form-container {
+  @apply flex w-[900px] h-[500px] bg-white border-none rounded-lg shadow-lg overflow-hidden;
+}
+
+.form-signin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+}
+
+.form-signin h1 {
+  font-size: 36px;
+  color: #e08f48;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-signin input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #e08f48;
+  border-radius: 5px;
+  outline: none;
+  color: #432c1f;
+  font-size: 18px;
+}
+
+.mensajeBienvenida {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+  width: 900px;
+  background-color: #e08f48;
+  color: #432c1f;
+  text-align: center;
+}
+.mensajeBienvenida h2 {
+  margin-top: 0;
+  font-size: 36px;
+}
+/* .mensajeBienvenida button {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: #f3d0a1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 10px;
+  color: #432c1f;
+  font-size: 18px;
+}
+
+.mensajeBienvenida button:hover {
+  filter: brightness(1.1);
+  transform: scale(1.1);
+} */
