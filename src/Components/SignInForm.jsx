@@ -67,7 +67,7 @@ function SignInForm() {
           </form>
           <div className="mensajeBienvenida">
             <h2>¡Bienvenido a la mejor panadería de tu ciudad!</h2>
-            <img className="cambia-modo" src={gatopan} alt="gatopan" />
+            <img className="cambia-modo " src={gatopan} alt="gatopan" />
             <BotonRegister label={"Registrarse"} />
           </div>
         </section>
