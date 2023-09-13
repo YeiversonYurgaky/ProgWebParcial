@@ -53,23 +53,22 @@ main {
   text-align: center;
 }
 .mensajeBienvenida h2 {
-  margin-top: 0;
   font-size: 36px;
 }
-/* .mensajeBienvenida button {
-  margin-top: 50px;
-  padding: 10px 20px;
-  background-color: #f3d0a1;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  color: #432c1f;
-  font-size: 18px;
+
+/* En tu archivo CSS personalizado */
+@keyframes cambioModo {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(-1);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
-.mensajeBienvenida button:hover {
-  filter: brightness(1.1);
-  transform: scale(1.1);
-} */
+.cambia-modo:hover {
+  animation: cambioModo 0.3s ease infinite;
+}
