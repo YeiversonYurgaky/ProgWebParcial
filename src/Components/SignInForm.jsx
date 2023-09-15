@@ -42,7 +42,7 @@ function SignInForm() {
 
   return (
     <main className="main">
-      <div className="container">
+      <div className="contenedor">
         <section className="form-container">
           <form className="form-signin">
             <h1>Iniciar Sesión</h1>

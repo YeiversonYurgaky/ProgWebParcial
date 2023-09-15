@@ -3,7 +3,7 @@
   background-image: url(../assets/panbg.jpg);
 }
 
-.container {
+.contenedor {
   @apply flex items-center h-screen justify-center;
 }
 

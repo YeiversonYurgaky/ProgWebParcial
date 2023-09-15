@@ -3,7 +3,7 @@ import NavDashboard from "../Components/NavDashboard";
 
 const Dashboard = () => {
   return (
-    <div>
+    <div className="w-screen h-screen">
       <NavDashboard />
     </div>
   );
