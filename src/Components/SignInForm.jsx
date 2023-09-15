@@ -4,23 +4,25 @@ import BotonRegister from "./BotonRegister";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import gatopan from "../assets/gatologin.png";
+import axios from "axios";
+
 function SignInForm() {
   const [usuario, setUsuario] = useState("");
   const [contraseña, setContraseña] = useState("");
   const navigate = useNavigate();
 
   const iniciarSesion = async (e) => {
-    e.prevenrDefault();
+    e.preventDefault();
     console.log("Usuario:", usuario);
     console.log("Contraseña:", contraseña);
 
-    const datosPostman = {
+    const data = {
       usuario: usuario,
       password: contraseña,
     };
 
     await axios
-      .post("http://89.116.25.43:3500/api/login", datosPostman)
+      .post("http://89.116.25.43:3500/api/login", data)
       .then((resp) => {
         console.log(resp);
         localStorage.setItem("token", resp.data.jwt);
