@@ -41,7 +41,7 @@ function SignInForm() {
   };
 
   return (
-    <main>
+    <main className="main">
       <div className="container">
         <section className="form-container">
           <form className="form-signin">
@@ -68,7 +68,10 @@ function SignInForm() {
             />
           </form>
           <div className="mensajeBienvenida">
-            <h2>¡Bienvenido a la mejor panadería de tu ciudad!</h2>
+            <h2>
+              ¡Bienvenidos a <span>Dulce Tentación</span> la mejor panadería de
+              tu ciudad!
+            </h2>
             <img className="cambia-modo " src={gatopan} alt="gatopan" />
             <BotonRegister label={"Registrarse"} />
           </div>

@@ -1,4 +1,4 @@
-main {
+.main {
   @apply flex justify-center bg-no-repeat bg-center bg-cover;
   background-image: url(../assets/panbg.jpg);
 }
@@ -53,7 +53,15 @@ main {
   text-align: center;
 }
 .mensajeBienvenida h2 {
-  font-size: 36px;
+  text-align: left;
+  font-size: 28px;
+}
+
+.mensajeBienvenida h2 span {
+  background-color: saddlebrown;
+  color: white;
+  padding: 5px;
+  font-weight: 700;
 }
 
 /* En tu archivo CSS personalizado */
