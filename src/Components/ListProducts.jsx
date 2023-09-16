@@ -17,9 +17,9 @@ const ListProducts = () => {
       })
       .catch((error) => {
         if (error.response.status == 400) {
-          Swal.fire("Información!", err.response.data.message, "error");
+          Swal.fire("Información!", error.response.data.message, "error");
         } else if (error.response.status == 401) {
-          Swal.fire("Información!", err.response.data.message, "error");
+          Swal.fire("Información!", error.response.data.message, "error");
         } else {
           Swal.fire("Información!", "Ocurrio un error!", "error");
         }
