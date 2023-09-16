@@ -1,7 +1,6 @@
 import React from "react";
 import NavDashboard from "../Components/NavDashboard";
 import ListProducts from "../Components/ListProducts";
-import "../Styles/Dashboard.css";
 
 const Dashboard = () => {
   return (
