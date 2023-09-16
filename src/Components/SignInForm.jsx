@@ -9,6 +9,7 @@ import axios from "axios";
 function SignInForm() {
   const [usuario, setUsuario] = useState("");
   const [contraseña, setContraseña] = useState("");
+  const API_INGRESAR = "http://89.116.25.43:3500/api/login";
   const navigate = useNavigate();
 
   const iniciarSesion = async (e) => {
@@ -22,7 +23,7 @@ function SignInForm() {
     };
 
     await axios
-      .post("http://89.116.25.43:3500/api/login", data)
+      .post(API_INGRESAR, data)
       .then((resp) => {
         console.log(resp);
         localStorage.setItem("token", resp.data.jwt);

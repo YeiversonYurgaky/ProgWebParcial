@@ -5,10 +5,10 @@ import Swal from "sweetalert2";
 const ListProducts = () => {
   const token = localStorage.getItem("token");
   const [data, setData] = useState([]);
-
+  const API_PRODUCTOS = "http://89.116.25.43:3500/api/productos/listar";
   const handleProducts = async () => {
     await axios
-      .get("http://89.116.25.43:3500/api/productos/listar", {
+      .get(API_PRODUCTOS, {
         headers: { Authorization: `bearer ${token}` },
       })
       .then((resp) => {
