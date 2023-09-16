@@ -12,6 +12,10 @@ function SignInForm() {
   const API_INGRESAR = "http://89.116.25.43:3500/api/login";
   const navigate = useNavigate();
 
+  const goToRegister = () => {
+    navigate("/register");
+  };
+
   const iniciarSesion = async (e) => {
     e.preventDefault();
     console.log("Usuario:", usuario);
@@ -74,7 +78,7 @@ function SignInForm() {
               tu ciudad!
             </h2>
             <img className="cambia-modo " src={gatopan} alt="gatopan" />
-            <BotonRegister label={"Registrarse"} />
+            <BotonRegister fnRegistrarse={goToRegister} label={"Registrarse"} />
           </div>
         </section>
       </div>

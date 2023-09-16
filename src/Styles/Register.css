@@ -1,0 +1,39 @@
+.main-signup {
+  @apply flex justify-center bg-no-repeat bg-center bg-cover;
+  background-image: url("../assets/panbg.jpg");
+}
+
+.contenedor-signup {
+  @apply flex items-center h-screen w-screen justify-center;
+}
+
+.form-container-signup {
+  @apply flex justify-center items-center w-[500px] h-[600px] bg-white border-none rounded-lg shadow-lg overflow-hidden;
+}
+
+.form-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-signup h1 {
+  font-size: 36px;
+  color: #e08f48;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.form-signup input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #e08f48;
+  border-radius: 5px;
+  outline: none;
+  color: #432c1f;
+  font-size: 18px;
+}
