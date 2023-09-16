@@ -64,7 +64,6 @@
   font-weight: 700;
 }
 
-/* En tu archivo CSS personalizado */
 @keyframes cambioModo {
   0% {
     transform: scaleX(1);
