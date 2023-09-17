@@ -34,7 +34,7 @@
   padding: 10px;
   margin-bottom: 10px;
   border: 3px solid #e08f48;
-  border-radius: 5px;
+  border-radius: 16px;
   outline: none;
   color: #432c1f;
   font-size: 18px;
@@ -43,7 +43,7 @@
 .mensajeBienvenida {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   padding: 20px;
   flex: 1;
@@ -52,16 +52,26 @@
   color: #432c1f;
   text-align: center;
 }
-.mensajeBienvenida h2 {
+.mensajeBienvenida p {
   text-align: left;
   font-size: 28px;
+  background-color: #a37f68;
+  padding: 3px;
+  border-radius: 10px;
 }
 
-.mensajeBienvenida h2 span {
-  background-color: saddlebrown;
-  color: white;
-  padding: 5px;
+.mensajeBienvenida p span {
+  background-color: #91664b;
+  color: #432c1f;
+  padding: 3px;
   font-weight: 700;
+  border-radius: 10px;
+}
+
+.cambia-modo {
+  background-color: #a37f68;
+  padding: 3px;
+  border-radius: 10px;
 }
 
 @keyframes cambioModo {

@@ -31,24 +31,24 @@ const ListProducts = () => {
   }, []);
 
   return (
-    <div className="bg-bread2 grid grid-cols-[repeat(auto-fill, minmax(1fr, 100px))] grid-cols-3-max gap-4 place-items-center my-4 select-none sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div className="bg-[#faf8e8] grid grid-cols-[repeat(auto-fill, minmax(1fr, 100px))] grid-cols-3-max gap-4 place-items-center my-4 select-none sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
       {data.map((result) => {
         return (
           <div
             key={result._id}
-            className="text-bread3 text-3xl bg-white bg-opacity-20 border-[3px] border-bread3 rounded-lg flex flex-col justify-around items-center w-[350px] h-[500px] transition-transform duration-300 ease-in hover:scale-105 shadow-md"
+            className="text-bread3 text-3xl mb-3 bg-white border-[2px] border-bread3 rounded-lg flex flex-col items-center justify-evenly w-[300px] h-[480px] transition-transform duration-300 ease-in hover:scale-105 hover:shadow-lg shadow-lg"
           >
-            <div className="bg-bread2 p-1 rounded-lg">{result.descripcion}</div>
             <div>
               <img
                 src={result.imagen}
                 alt={result.descripcion}
-                className="w-56 h-auto rounded-lg max-w-full block "
+                className="w-56 h-auto"
               />
             </div>
             <div className="bg-green-200 p-1 rounded-lg text-green-600 ">
               {"$" + result.valor + " pesos"}
             </div>
+            <div className="bg-bread2 p-1 rounded-lg">{result.descripcion}</div>
           </div>
         );
       })}

@@ -73,11 +73,11 @@ function SignInForm() {
             />
           </form>
           <div className="mensajeBienvenida">
-            <h2>
+            <p>
               ¡Bienvenidos a <span>Dulce Tentación</span> la mejor panadería de
               tu ciudad!
-            </h2>
-            <img className="cambia-modo " src={gatopan} alt="gatopan" />
+            </p>
+            <img className="cambia-modo" src={gatopan} alt="gatopan" />
             <BotonRegister fnRegistrarse={goToRegister} label={"Registrarse"} />
           </div>
         </section>
