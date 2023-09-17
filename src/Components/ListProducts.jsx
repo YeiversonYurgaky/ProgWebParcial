@@ -45,10 +45,10 @@ const ListProducts = () => {
                 className="w-56 h-auto"
               />
             </div>
+            <div className="bg-bread2 p-1 rounded-lg">{result.descripcion}</div>
             <div className="bg-green-200 p-1 rounded-lg text-green-600 ">
               {"$" + result.valor + " pesos"}
             </div>
-            <div className="bg-bread2 p-1 rounded-lg">{result.descripcion}</div>
           </div>
         );
       })}
