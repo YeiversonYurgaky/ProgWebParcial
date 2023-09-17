@@ -5,7 +5,7 @@ import DashBanner from "../Components/DashBanner";
 
 const Dashboard = () => {
   return (
-    <div className="flex justify-center bg-[#faf8e8]">
+    <div className="flex justify-center bg-[#906f4c]">
       <div className="w-screen h-screen">
         <NavDashboard />
         <DashBanner />
