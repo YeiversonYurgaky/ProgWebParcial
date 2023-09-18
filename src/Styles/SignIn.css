@@ -1,6 +1,6 @@
 .main {
   @apply flex justify-center bg-no-repeat bg-center bg-cover;
-  background-image: url("../assets/panbg.jpg");
+  background-image: url("../assets/bgSignin.jpg");
 }
 
 .contenedor {
