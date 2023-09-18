@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BotonLogin from "./BotonLogin";
-import BotonRegister from "./BotonRegister";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import gatopan from "../assets/gatologin.png";
@@ -11,10 +10,6 @@ function SignInForm() {
   const [contraseña, setContraseña] = useState("");
   const API_INGRESAR = "http://89.116.25.43:3500/api/login";
   const navigate = useNavigate();
-
-  const goToRegister = () => {
-    navigate("/register");
-  };
 
   const iniciarSesion = async (e) => {
     e.preventDefault();
@@ -78,7 +73,6 @@ function SignInForm() {
               tu ciudad!
             </p>
             <img className="cambia-modo" src={gatopan} alt="gatopan" />
-            <BotonRegister fnRegistrarse={goToRegister} label={"Registrarse"} />
           </div>
         </section>
       </div>
