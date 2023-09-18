@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import gatopan from "../assets/gatologin.png";
 import axios from "axios";
+import "../Styles/SignIn.css";
 
 function SignInForm() {
   const [usuario, setUsuario] = useState("");

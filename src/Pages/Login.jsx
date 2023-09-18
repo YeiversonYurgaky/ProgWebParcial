@@ -1,6 +1,5 @@
 import React from "react";
 import SignInForm from "../Components/SignInForm";
-import "../Styles/SignIn.css";
 
 const Login = () => {
   return (
