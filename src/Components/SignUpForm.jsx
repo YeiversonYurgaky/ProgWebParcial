@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import BotonRegister from "./BotonRegister";
-import "../Styles/Register.css";
+import "../Styles/SignUp.css";
 import axios from "axios";
 const SignUpForm = () => {
   const [name, setName] = useState("");

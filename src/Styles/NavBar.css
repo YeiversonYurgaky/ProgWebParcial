@@ -1,0 +1,31 @@
+.navbar-brand {
+  color: #f8f4e4 !important;
+}
+.nav-link {
+  color: #f8f4e4 !important;
+}
+
+.dropdown-menu.show {
+  background-color: #947452;
+}
+
+.dropdown-item {
+  color: #f8f4e4 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #432c1f !important;
+}
+
+.navbar-brand:hover {
+  color: #fff5cf !important;
+}
+
+.nav-link:hover {
+  color: #fff5cf !important;
+}
+
+.dropdown-item:hover {
+  color: #fff5cf !important;
+  background-color: #432c1f !important;
+}

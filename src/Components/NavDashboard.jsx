@@ -7,9 +7,11 @@ function NavDashboard() {
   const usuario = localStorage.getItem("username");
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-[#947452] shadow-md">
       <Container>
-        <Navbar.Brand href="#home">Bienvenido {usuario}</Navbar.Brand>
+        <Navbar.Brand href="http://localhost:5173/dashboard">
+          Bienvenido {usuario}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

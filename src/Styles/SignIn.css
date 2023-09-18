@@ -22,7 +22,7 @@
 
 .form-signin h1 {
   font-size: 36px;
-  color: #e08f48;
+  color: #432c1f;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -33,7 +33,7 @@
   width: 250px;
   padding: 10px;
   margin-bottom: 10px;
-  border: 3px solid #e08f48;
+  border: 3px solid #432c1f;
   border-radius: 16px;
   outline: none;
   color: #432c1f;
@@ -48,20 +48,20 @@
   padding: 20px;
   flex: 1;
   width: 900px;
-  background-color: #e08f48;
+  background-color: #f3d0a1;
   color: #432c1f;
   text-align: center;
 }
 .mensajeBienvenida p {
   text-align: left;
   font-size: 28px;
-  background-color: #a37f68;
+  background-color: #f8f4e4;
   padding: 3px;
   border-radius: 10px;
 }
 
 .mensajeBienvenida p span {
-  background-color: #91664b;
+  background-color: #f3d0a1;
   color: #432c1f;
   padding: 3px;
   font-weight: 700;
@@ -69,7 +69,7 @@
 }
 
 .cambia-modo {
-  background-color: #a37f68;
+  background-color: #f8f4e4;
   padding: 3px;
   border-radius: 10px;
 }
