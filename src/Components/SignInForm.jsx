@@ -33,7 +33,7 @@ function SignInForm() {
       })
       .catch((error) => {
         console.log(error);
-        if (error.response.status === 404) {
+        if (error.response.status == 400 || error.response.status === 404) {
           Swal.fire("Informacion!", error.response.data.message, "error");
         } else {
           Swal.fire("Informacion!", "Ocurrio un error", "error");
